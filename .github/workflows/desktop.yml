@@ -19,7 +19,6 @@ jobs:
 
     - name: Install Dependencies & Build
       run: |
-        cd p1-app-pc
         npm install
         npm run build
 
